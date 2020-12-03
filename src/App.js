@@ -4,6 +4,7 @@ import { News } from './news/News';
 import './App.css';
 import 'antd/dist/antd.css'
 import { Layout, Menu, Breadcrumb } from 'antd';
+// import Notification from 'react-notification';
 
 import {
     BrowserRouter as Router,

@@ -90,7 +90,7 @@ export function News(props) {
                                         <Link to="/details">
                                             <Card
                                                 hoverable
-                                                style={{ width: 340, minHeight: 340, marginBottom: 20 }}
+                                                // style={{ width: 340, minHeight: 340, marginBottom: 20 }}
                                                 cover={<img alt="" src={article.urlToImage} />}
                                                 onClick={ props.handleNewsClick(article) }
                                             >
